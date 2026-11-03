@@ -1,0 +1,41 @@
+name: wiksayuq_yanapay
+description: Aplicación Wiksayuq Yanapay.
+publish_to: none
+version: 1.0.2+3
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+  flutter: '>=3.27.0'
+dependencies:
+  shared_preferences: ^2.5.3
+  video_player: ^2.10.0
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/alarma.png
+    - assets/images/acudir_de_inmediato.png
+    - assets/images/ve_acompanado.png
+    - assets/images/lleva_tus_documentos.png
+    - assets/images/bienvenida_maternal.png
+    - assets/images/bienvenida_ecografia.png
+    - assets/images/bienvenida_mapa.png
+    - assets/images/bebe_manta_azul.png
+    - assets/images/sangrado_vaginal.jpeg
+    - assets/images/fiebre_escalofrios.jpeg
+    - assets/images/perdida_liquido.jpeg
+    - assets/images/hinchazon_pies_manos_cara.jpeg
+    - assets/images/disminucion_movimiento_bebe.png
+    - assets/images/ausencia_movimientos_fetales.jpeg
+    - assets/images/nauseas_vomitos_exagerados.jpeg
+    - assets/images/dolor_cabeza_zumbidos.jpeg
+    - assets/videos/dolor_cabeza_zumbidos.mp4
+    - assets/videos/nauseas_vomitos.mp4
+    - assets/videos/perdida_liquido_amniotico.mp4
+    - assets/videos/sangrado_vaginal.mp4
+    - assets/videos/disminucion_movimientos_fetales.mp4
+
+    - assets/video_thumbnails/
